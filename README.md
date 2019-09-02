@@ -5,8 +5,8 @@ Make sure Candyhouse Sesame API can completely work.
 - Google Apps Script
 - IFTTT
 
-# API
-use webhook.
+# API usage
+## Use Webhook.
 - POST
 - application/json
 
