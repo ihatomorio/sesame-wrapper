@@ -103,7 +103,7 @@ function ExecuteRequest(url, data){
 function SesameGET(url){
   //スクリプトのプロパティを得る
   const APIkey = PropertiesService.getScriptProperties().getProperty("API_KEY");
-  if(APIkey == null) throw "API_KEY not found";  
+  if(APIkey == null) throw "API_KEY not found";
   
   //認証とリクエストのためのデータを整形
   var data = { 
@@ -129,7 +129,7 @@ function SesameGET(url){
 function SesamePOST(url, payload){
   //スクリプトのプロパティを得る
   const APIkey = PropertiesService.getScriptProperties().getProperty("API_KEY");
-  if(APIkey == null) throw "API_KEY not found";  
+  if(APIkey == null) throw "API_KEY not found";
   
   //認証とリクエストのためのデータを整形
   var data = { 
